@@ -1,0 +1,1484 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*first_home*/
+.first_home{
+    height: 720px;
+}
+
+.firsthome_bg{
+    position: absolute;
+    width: 100%;
+    height: 620px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px 20px ;
+}
+.nav_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left a{
+    padding: 0 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: 0.4s;
+    position: relative;
+}
+.nav_left a:hover{
+    color: rgb(100, 50, 148);
+}
+.nav_left a:hover::after{
+    content: "";
+    width: 59%;
+    height: 8%;
+    background-color: rgb(82, 37, 124);
+    display: inline-block;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 22px;
+}
+
+.nav_right{
+    position: relative;
+}
+.nav_right img{
+    width: 120px;
+    height: 30px;
+   
+   
+}
+.nav_right span{
+  position: absolute;
+  right: 33%;
+  top: 5%;
+  font-size: 18px;
+  color: rgb(124, 124, 123);
+}
+.nav_right span:hover{
+    color: rgb(71, 30, 109);
+}
+.firsthome_budy{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthome_body1{
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 50%;
+}
+.firsthome_body1p{
+    font-size: 47px;
+    font-weight: 500;
+    color: rgb(91, 91, 92);
+}
+.firsthome_body1p span{
+    color:rgb(96, 31, 156);
+}
+.firsthome_body1p2{
+    font-size: 18px;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.firsthome_body2{
+    width: 50%;
+    position: relative;
+}
+.firsthome_img1{
+    width: 100%;
+    position: absolute;
+}
+.firsthome_img2{
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+}
+.firsthome_img3{
+    margin-top: 65%;
+    margin-left: 18%;
+    width: 50%;
+    position: absolute;
+}
+.firsthome_wave{
+    width: 85%;
+    position: absolute;
+    margin-top: 26%;
+    left: -10%;
+}
+/*second_home*/
+.second_home{
+    position: relative;
+    padding: 0 100px;
+    height: 120vh;
+}
+.secondhome_big div{
+    width: 400px;
+}
+.secondhome_big div img{
+    width: 240px;
+}
+.secondhome_big div p{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(62, 62, 63);
+}
+.secondhome_big div p span{
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+.second_sec1{
+    position: absolute;
+    top:16%;
+    left: 10%;
+}
+.second_sec2{
+    position: absolute;
+    top:35%;
+    left: 40%;
+}
+.second_sec3{
+    position: absolute;
+    top:65%;
+    right: 10%;
+}
+.second_homebg{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 60%;
+    width: 65%;
+}
+.secondhome_img4{
+    position: absolute;
+    top: 65%;
+    left:10% ;
+}
+.secondhome_img4big{
+    position: relative;
+
+}
+.secondhome_img4big img{
+    width: 250px;
+}
+.secondhome_img4big p{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 23px;
+    color: aliceblue;
+    text-align: center;
+}
+.secondhome_img4big p span{
+    font-size: 30px;
+    font-weight: 600;
+}
+/*third_home*/
+.third_home{
+    padding: 0 10%;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.midle_p1{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+}
+.midle_p2{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(73, 73, 73);
+}
+.fa-solid{
+    font-size: 20px;
+}
+/*last_home*/
+.last_home{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+
+}
+.lasthome_img1{
+    position: absolute;
+    width: 110%;
+    height: 150%;
+    left: -3%;
+}
+.lasthome_img2{
+    position: absolute;
+    width: 45%;
+    bottom: 0;
+    right: 5%;
+}
+.lasthome_icons1{
+    display: flex;
+    width: 300px;
+    height: 30px;
+    justify-content: space-between;
+    align-self: center;
+    bottom: 30%;
+    left: 5%;
+    position: absolute;
+}
+.lasthome_icons1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 5%;
+}
+.lasthome_icons1 div img{
+    width: 27px;
+    height: 25px;
+    margin-left: 10px;
+}
+.lasthome_icons1 div p{
+    font-weight: 400;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(58, 58, 58);
+}
+.lasthome_icons1 div p span{
+    font-size: 11px;
+}
+.lasthome_icons2{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+}
+.lasthome_icons2 img{
+    width: 25px;
+    height: 35px;
+}
+.lasthome_icons3{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    left: 5%;
+}
+.lasthome_icons3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 15px;
+    transition: 0.5s;
+}
+.lasthome_icons3 a:hover{
+    color: blueviolet;
+}
+
+/*media quiry 1200px*/
+@media only screen and (max-width:1200px) {
+    /*first_home*/
+.first_home{
+    height: 720px;
+}
+
+.firsthome_bg{
+    position: absolute;
+    width: 100%;
+    height: 620px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:20px 20px ;
+}
+.nav_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left a{
+    padding: 0 25px;
+    font-size: 15px;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: 0.4s;
+    position: relative;
+}
+.nav_left a:hover{
+    color: rgb(100, 50, 148);
+}
+.nav_left a:hover::after{
+    content: "";
+    width: 59%;
+    height: 8%;
+    background-color: rgb(82, 37, 124);
+    display: inline-block;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 22px;
+}
+
+.nav_right{
+    position: relative;
+}
+.nav_right img{
+    width: 120px;
+    height: 30px;
+   
+   
+}
+.nav_right span{
+  position: absolute;
+  right: 33%;
+  top: 5%;
+  font-size: 18px;
+  color: rgb(124, 124, 123);
+}
+.nav_right span:hover{
+    color: rgb(71, 30, 109);
+}
+.firsthome_budy{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthome_body1{
+    margin-left: 20px;
+    margin-top: 150px;
+    width: 50%;
+}
+.firsthome_body1p{
+    font-size: 35px;
+    font-weight: 500;
+    color: rgb(91, 91, 92);
+}
+.firsthome_body1p span{
+    color:rgb(96, 31, 156);
+}
+.firsthome_body1p2{
+    font-size: 15px;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.firsthome_body2{
+    width: 50%;
+    position: relative;
+}
+.firsthome_img1{
+    width: 100%;
+    position: absolute;
+}
+.firsthome_img2{
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+}
+.firsthome_img3{
+    margin-top: 65%;
+    margin-left: 18%;
+    width: 50%;
+    position: absolute;
+}
+.firsthome_wave{
+    width: 80%;
+    position: absolute;
+    margin-top: 34%;
+    left: -10%;
+}
+/*second_home*/
+.second_home{
+    position: relative;
+    padding: 0 80px;
+    height: 120vh;
+}
+.secondhome_big div{
+    width: 300px;
+}
+.secondhome_big div img{
+    width: 200px;
+}
+.secondhome_big div p{
+    text-align: center;
+    font-size: 13px;
+    color: rgb(62, 62, 63);
+}
+.secondhome_big div p span{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+.second_sec1{
+    position: absolute;
+    top:16%;
+    left: 10%;
+}
+.second_sec2{
+    position: absolute;
+    top:35%;
+    left: 40%;
+}
+.second_sec3{
+    position: absolute;
+    top:65%;
+    right: 10%;
+}
+.second_homebg{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    height: 60%;
+    width: 65%;
+}
+.secondhome_img4{
+    position: absolute;
+    top: 65%;
+    left:10% ;
+}
+.secondhome_img4big{
+    position: relative;
+
+}
+.secondhome_img4big img{
+    width: 200px;
+}
+.secondhome_img4big p{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    font-size: 15px;
+    color: aliceblue;
+    text-align: center;
+}
+.secondhome_img4big p span{
+    font-size: 25px;
+    font-weight: 500;
+}
+/*third_home*/
+.third_home{
+    padding: 0 8%;
+    margin-top: 80px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.midle_p1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+}
+.midle_p2{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+}
+.fa-solid{
+    font-size: 18px;
+}
+/*last_home*/
+.last_home{
+    position: relative;
+    height: 80vh;
+    overflow: hidden;
+
+}
+.lasthome_img1{
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    left: -3%;
+}
+.lasthome_img2{
+    position: absolute;
+    width: 41%;
+    bottom: 0;
+    right: 9%;
+}
+.lasthome_icons1{
+    display: flex;
+    width: 200px;
+    height: 20px;
+    justify-content: space-between;
+    align-self: center;
+    bottom: 35%;
+    left: 5%;
+    position: absolute;
+}
+.lasthome_icons1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 10%;
+}
+.lasthome_icons1 div img{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+}
+.lasthome_icons1 div p{
+    font-weight: 300;
+    margin-left: 15px;
+    text-align: center;
+    font-size: 11px;
+    color: rgb(58, 58, 58);
+}
+.lasthome_icons1 div p span{
+    font-size: 8px;
+}
+.lasthome_icons1 img{
+    width: 130px;
+}
+.lasthome_icons2{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 22%;
+    left: 5%;
+}
+.lasthome_icons2 img{
+    width: 20px;
+    height: 25px;
+}
+.lasthome_icons3{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 13%;
+    left: 5%;
+}
+.lasthome_icons3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.lasthome_icons3 a:hover{
+    color: blueviolet;
+}  
+}
+
+/*media quiry 992px*/
+@media only screen and (max-width:992px) {
+    /*first_home*/
+.first_home{
+    height: 650px;
+}
+
+.firsthome_bg{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:10px 10px ;
+}
+.nav_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left a{
+    padding: 0 20px;
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: 0.4s;
+    position: relative;
+}
+.nav_left a:hover{
+    color: rgb(100, 50, 148);
+}
+.nav_left a:hover::after{
+    content: "";
+    width: 50%;
+    height: 8%;
+    background-color: rgb(82, 37, 124);
+    display: inline-block;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 20px;
+}
+
+.nav_right{
+    position: relative;
+}
+.nav_right img{
+    width: 70px;
+    height: 25px;
+   
+   
+}
+.nav_right span{
+  position: absolute;
+  right: 26%;
+  top: 5%;
+  font-size: 15px;
+  color: rgb(124, 124, 123);
+}
+.nav_right span:hover{
+    color: rgb(132, 79, 182);
+}
+.firsthome_budy{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthome_body1{
+    margin-left: 15px;
+    margin-top: 100px;
+    width: 40%;
+}
+.firsthome_body1p{
+    font-size: 25px;
+    font-weight: 500;
+    color: rgb(91, 91, 92);
+}
+.firsthome_body1p span{
+    color:rgb(100, 41, 155);
+}
+.firsthome_body1p2{
+    font-size: 12px;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+    margin-top: 15px;
+}
+.firsthome_body2{
+    width: 40%;
+    position: relative;
+}
+.firsthome_img1{
+    width: 100%;
+    position: absolute;
+}
+.firsthome_img2{
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+}
+.firsthome_img3{
+    margin-top: 65%;
+    margin-left: 18%;
+    width: 50%;
+    position: absolute;
+}
+.firsthome_wave{
+    width: 80%;
+    position: absolute;
+    margin-top: 28%;
+    left: -7%;
+}
+/*second_home*/
+.second_home{
+    position: relative;
+    padding: 0 50px;
+    height: 120vh;
+}
+.secondhome_big div{
+    width: 200px;
+}
+.secondhome_big div img{
+    width: 130px;
+}
+.secondhome_big div p{
+    text-align: center;
+    font-size: 9px;
+    color: rgb(62, 62, 63);
+}
+.secondhome_big div p span{
+    font-size: 12px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+.second_sec1{
+    position: absolute;
+    top:-10%;
+    left: 10%;
+}
+.second_sec2{
+    position: absolute;
+    top:5%;
+    left: 42%;
+}
+.second_sec3{
+    position: absolute;
+    top:35%;
+    right: 11%;
+}
+.second_homebg{
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    height: 60%;
+    width: 65%;
+}
+.secondhome_img4{
+    position: absolute;
+    top: 35%;
+    left:10% ;
+}
+.secondhome_img4big{
+    position: relative;
+
+}
+.secondhome_img4big img{
+    width: 130px;
+}
+.secondhome_img4big p{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    font-size: 10px;
+    color: aliceblue;
+    text-align: center;
+}
+.secondhome_img4big p span{
+    font-size: 17px;
+    font-weight: 500;
+}
+/*third_home*/
+.third_home{
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.midle_p1{
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+}
+.midle_p2{
+    margin-top: 7px;
+    text-align: center;
+    font-size: 11px;
+    color: rgb(73, 73, 73);
+}
+.fa-solid{
+    font-size: 15px;
+}
+.third_home img{
+    width: 130px;
+}
+/*last_home*/
+.last_home{
+    position: relative;
+    height: 50vh;
+    overflow: hidden;
+
+}
+.lasthome_img1{
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    left: -3%;
+}
+.lasthome_img2{
+    position: absolute;
+    width: 41%;
+    bottom: 0;
+    right: 9%;
+}
+.lasthome_icons1{
+    display: flex;
+    width: 80px;
+    height: 15px;
+    justify-content: space-between;
+    align-self: center;
+    bottom: 35%;
+    left: 5%;
+    position: absolute;
+}
+.lasthome_icons1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-right: 10px;
+    top: 5%;
+}
+.lasthome_icons1 div img{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.lasthome_icons1 div p{
+    font-weight: 500;
+    margin-left: 7px;
+    text-align:left;
+    font-size: 9px;
+    color: rgb(0, 0, 0);
+}
+.lasthome_icons1 div p span{
+    font-size: 8px;
+    text-align: left;
+}
+.lasthome_icons1 img{
+    width: 100px;
+    height: 30px;
+}
+.lasthome_icons2{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+}
+.lasthome_icons2 img{
+    width: 20px;
+    height: 25px;
+}
+.lasthome_icons3{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+}
+.lasthome_icons3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.lasthome_icons3 a:hover{
+    color: blueviolet;
+}  
+}
+/*media quiry 768px*/
+@media only screen and (max-width:768px) {
+    /*first_home*/
+.first_home{
+    height: 650px;
+}
+
+.firsthome_bg{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:10px 10px ;
+}
+.nav_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left a{
+    padding: 0 15px;
+    font-size: 10px;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: 0.4s;
+    position: relative;
+}
+.nav_left a:hover{
+    color: rgb(100, 50, 148);
+}
+.nav_left a:hover::after{
+    content: "";
+    width: 45%;
+    height: 8%;
+    background-color: rgb(82, 37, 124);
+    display: inline-block;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 15px;
+}
+
+.nav_right{
+    position: relative;
+}
+.nav_right img{
+    width: 60px;
+    height: 22px;
+   
+   
+}
+.nav_right span{
+  position: absolute;
+  right: 26%;
+  top: 5%;
+  font-size: 13px;
+  color: rgb(124, 124, 123);
+}
+.nav_right span:hover{
+    color: rgb(132, 79, 182);
+}
+.firsthome_budy{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthome_body1{
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 30%;
+}
+.firsthome_body1p{
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(58, 18, 85);
+}
+.firsthome_body1p span{
+    color:rgb(100, 41, 155);
+}
+.firsthome_body1p2{
+    font-size: 10px;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+    margin-top: 10px;
+}
+.firsthome_body2{
+    width: 30%;
+    position: relative;
+}
+.firsthome_img1{
+    width: 100%;
+    position: absolute;
+}
+.firsthome_img2{
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+}
+.firsthome_img3{
+    margin-top: 65%;
+    margin-left: 18%;
+    width: 50%;
+    position: absolute;
+}
+.firsthome_wave{
+    width: 80%;
+    position: absolute;
+    margin-top: 18%;
+    left: 4%;
+}
+/*second_home*/
+.second_home{
+    position: relative;
+    padding: 0 20px;
+    height: 110vh;
+}
+.secondhome_big div{
+    width: 100px;
+}
+.secondhome_big div img{
+    width: 90px;
+}
+.secondhome_big div p{
+    text-align: center;
+    font-size: 7px;
+    color: rgb(62, 62, 63);
+}
+.secondhome_big div p span{
+    font-size: 10px;
+    font-weight: 500;
+    color: rgb(39, 39, 39);
+}
+.second_sec1{
+    position: absolute;
+    top:-15%;
+    left: 10%;
+}
+.second_sec2{
+    position: absolute;
+    top:-1%;
+    left: 42%;
+}
+.second_sec3{
+    position: absolute;
+    top:10%;
+    right: 9%;
+}
+.second_homebg{
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    height: 40%;
+    width: 65%;
+}
+.secondhome_img4{
+    position: absolute;
+    top: 10%;
+    left:10% ;
+}
+.secondhome_img4big{
+    position: relative;
+
+}
+.secondhome_img4big img{
+    width: 90px;
+}
+.secondhome_img4big p{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    font-size: 9px;
+    color: aliceblue;
+    text-align: center;
+}
+.secondhome_img4big p span{
+    font-size: 11px;
+    font-weight: 500;
+}
+/*third_home*/
+.third_home{
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.midle_p1{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+}
+.midle_p2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 8px;
+    color: rgb(73, 73, 73);
+}
+.fa-solid{
+    font-size: 15px;
+}
+.third_home img{
+    width: 90px;
+}
+/*last_home*/
+.last_home{
+    position: relative;
+    height: 35vh;
+    overflow: hidden;
+}
+.lasthome_img1{
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    left: -3%;
+}
+.lasthome_img2{
+    position: absolute;
+    width: 41%;
+    bottom: 0;
+    right: 9%;
+}
+.lasthome_icons1{
+    display: flex;
+    width: 50px;
+    height: 15px;
+    justify-content: space-between;
+    align-self: center;
+    bottom: 35%;
+    left: 5%;
+    position: absolute;
+}
+.lasthome_icons1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-right: 10px;
+    top: 5%;
+}
+.lasthome_icons1 div img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.lasthome_icons1 div p{
+    font-weight: 500;
+    margin-left: 7px;
+    text-align:center;
+    font-size: 7px;
+    color: rgb(0, 0, 0);
+}
+.lasthome_icons1 div p span{
+    font-size: 8px;
+    text-align:center;
+}
+.lasthome_icons1 img{
+    width: 80px;
+    height: 20px;
+}
+.lasthome_icons2{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+}
+.lasthome_icons2 img{
+    width: 13px;
+    height: 20px;
+}
+.lasthome_icons3{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+}
+.lasthome_icons3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 8px;
+    transition: 0.5s;
+}
+.lasthome_icons3 a:hover{
+    color: blueviolet;
+}  
+}
+
+/*media quiry 576px*/
+@media only screen and(min-width:300px) and (max-width:576px) {
+    /*first_home*/
+.first_home{
+    height: 250px;
+}
+
+.firsthome_bg{
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+.nav_bar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:10px 10px ;
+}
+.nav_left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_left a{
+    padding: 0 10px;
+    font-size: 5px;
+    text-decoration: none;
+    color: rgb(117, 117, 117);
+    transition: 0.4s;
+    position: relative;
+}
+.nav_left a:hover{
+    color: rgb(100, 50, 148);
+}
+.nav_left a:hover::after{
+    content: "";
+    width: 45%;
+    height: 8%;
+    background-color: rgb(82, 37, 124);
+    display: inline-block;
+    position: absolute;
+    transition: 0.3s;
+    bottom: -4px;
+    left: 10px;
+}
+
+.nav_right{
+    position: relative;
+}
+.nav_right img{
+    width: 15px;
+    height: 10px;
+   
+   
+}
+.nav_right span{
+  position: absolute;
+  right: 26%;
+  top: 5%;
+  font-size: 13px;
+  color: rgb(124, 124, 123);
+}
+.nav_right span:hover{
+    color: rgb(132, 79, 182);
+}
+.firsthome_budy{
+    display: flex;
+    justify-content: space-between;
+}
+.firsthome_body1{
+    margin-left: 15px;
+    margin-top: 30px;
+    width: 30%;
+}
+.firsthome_body1p{
+    font-size: 9px;
+    font-weight: 500;
+    color: rgb(58, 18, 85);
+}
+.firsthome_body1p span{
+    color:rgb(100, 41, 155);
+}
+.firsthome_body1p2{
+    font-size: 5px;
+    color: rgb(110, 109, 109);
+    font-weight: 400;
+    margin-top: 10px;
+}
+.firsthome_body2{
+    width: 20%;
+    position: relative;
+}
+.firsthome_img1{
+    width: 100%;
+    position: absolute;
+}
+.firsthome_img2{
+    width: 50%;
+    position: absolute;
+    margin-left: 20%;
+}
+.firsthome_img3{
+    margin-top: 65%;
+    margin-left: 18%;
+    width: 50%;
+    position: absolute;
+}
+.firsthome_wave{
+    width: 80%;
+    position: absolute;
+    margin-top: 18%;
+    left: 4%;
+}
+/*second_home*/
+.second_home{
+    position: relative;
+    padding: 0 10px;
+    height: 110vh;
+}
+.secondhome_big div{
+    width: 90px;
+}
+.secondhome_big div img{
+    width: 70px;
+}
+.secondhome_big div p{
+    text-align: center;
+    font-size: 5px;
+    color: rgb(62, 62, 63);
+}
+.secondhome_big div p span{
+    font-size: 7px;
+    font-weight: 300;
+    color: rgb(39, 39, 39);
+}
+.second_sec1{
+    position: absolute;
+    top:-15%;
+    left: 10%;
+}
+.second_sec2{
+    position: absolute;
+    top:-1%;
+    left: 42%;
+}
+.second_sec3{
+    position: absolute;
+    top:10%;
+    right: 9%;
+}
+.second_homebg{
+    position: absolute;
+    top: -20%;
+    left: 20%;
+    height: 30%;
+    width: 60%;
+}
+.secondhome_img4{
+    position: absolute;
+    top: 10%;
+    left:10% ;
+}
+.secondhome_img4big{
+    position: relative;
+
+}
+.secondhome_img4big img{
+    width: 70px;
+}
+.secondhome_img4big p{
+    position: absolute;
+    top: 30%;
+    left: 23%;
+    font-size: 9px;
+    color: aliceblue;
+    text-align: center;
+}
+.secondhome_img4big p span{
+    font-size: 11px;
+    font-weight: 500;
+}
+/*third_home*/
+.third_home{
+    padding: 0 8%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.midle_p1{
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(34, 33, 33);
+}
+.midle_p2{
+    margin-top: 5px;
+    text-align: center;
+    font-size: 8px;
+    color: rgb(73, 73, 73);
+}
+.fa-solid{
+    font-size: 15px;
+}
+.third_home img{
+    width: 90px;
+}
+/*last_home*/
+.last_home{
+    position: relative;
+    height: 35vh;
+    overflow: hidden;
+}
+.lasthome_img1{
+    position: absolute;
+    width: 110%;
+    height: 140%;
+    left: -3%;
+}
+.lasthome_img2{
+    position: absolute;
+    width: 41%;
+    bottom: 0;
+    right: 9%;
+}
+.lasthome_icons1{
+    display: flex;
+    width: 50px;
+    height: 15px;
+    justify-content: space-between;
+    align-self: center;
+    bottom: 35%;
+    left: 5%;
+    position: absolute;
+}
+.lasthome_icons1 div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    margin-right: 10px;
+    top: 5%;
+}
+.lasthome_icons1 div img{
+    width: 12px;
+    height: 12px;
+    margin-left: 10px;
+    margin-top: 0px;
+}
+.lasthome_icons1 div p{
+    font-weight: 500;
+    margin-left: 7px;
+    text-align:center;
+    font-size: 7px;
+    color: rgb(0, 0, 0);
+}
+.lasthome_icons1 div p span{
+    font-size: 8px;
+    text-align:center;
+}
+.lasthome_icons1 img{
+    width: 80px;
+    height: 20px;
+}
+.lasthome_icons2{
+    width: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 17%;
+    left: 5%;
+}
+.lasthome_icons2 img{
+    width: 13px;
+    height: 20px;
+}
+.lasthome_icons3{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    bottom: 9%;
+    left: 5%;
+}
+.lasthome_icons3 a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 8px;
+    transition: 0.5s;
+}
+.lasthome_icons3 a:hover{
+    color: blueviolet;
+}  
+}
+
+
+
+
+
+
+
+
